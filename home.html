@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushtak Ghar</title>
+    <!-- title ka andar photo ka lia   -->
+    <link rel="icon" type="image/gif" href="image/main-logo-2.jpg">
+    <link rel="stylesheet" href="css/home.css">
+    <style>
+    
+    </style>
+</head>
+
+<body>
+    <header class="container" id="main">
+        <div id="ham" class="ham">
+            <ul class="ham_list" id="list" style="border: 1em solid black;">
+                <li class="a_list" id="a_list1"><a href="home.html">Home</a></li>
+                <li class="a_list" id="a_list2"><a href="category.html">Category</a></li>
+                <li class="a_list" id="a_list3"><a href="Services.html">Services</a></li>
+                <li class="a_list" id="a_list4"><a href="about_us.html">About Us</a></li>
+                <li class="a_list" id="a_list5"><a href="contact_us.html">Contact US</a></li>
+            </ul>
+        </div>
+        <nav class="navbar" id="navbar">
+            <div class="flexbox_1">
+                <button id="button" onclick="ham()">&#9776</button>
+                <ol class="nav_ol">
+                    <li class="left" id="list-1"><a href="home.html"><img src="image/main-logo-2.jpg" height="65px"></a>
+                    </li>
+                    <li class="left" id="list-2"><a href="home.html" class="name">Pushtak Ghar</a></li>
+                </ol>
+            </div>
+            <div class="flexbox_2">
+                <ol>
+                    <li class="center" id="list-3"><a href="home.html">Home</a></li>
+                    <li class="center" id="list-4"><a href="category.html">Category</a></li>
+                    <li class="center" id="list-5"><a href="Services.html">Services</a></li>
+                    <li class="center" id="list-6"><a href="about_us.html">About Us</a></li>
+                    <li class="center" id="list-7"><a href="contact_us.html">Contact US</a></li>
+                </ol>
+            </div>
+            <div class="flexbox_3">
+                <input class="btn" id="search" type="text" name="search" placeholder="  Click Here To Search">
+                <button class="btn" id="glass">&#128269</button>
+                <button class="btn" id="log">login</button>
+                <button class="btn" id="si">sign up</button>
+            </div>
+        </nav>
+    </header>
+    <article>
+        <div class="ignore">
+            <div>Ignore The World </div>
+            <div class="you">You Just Read</div>
+        </div>
+    </article>
+
+    <main class="two">
+        <div class="three">
+            <div class="manga">
+                <img src="" alt="">
+            </div>
+
+    </main>
+    <script>
+        let ham = () => {
+            let list = document.getElementById('list');
+            if (list.style.display != `none`) {
+                list.style.display = `none`;
+            }
+            else {
+                list.style.display = `block`;
+            }
+        }
+    </script>
+</body>
+
+</html>

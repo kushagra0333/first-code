@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushtak Ghar</title>
+    <!-- title ka andar photo ka lia   -->
+    <link rel="icon" type="image/gif" href="image/main-logo-2.jpg">
+    <link rel="stylesheet" href="css/services.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header class="container" id="main">
+        <div id="ham" class="ham">
+            <ul class="ham_list" id="list" style="border: 1em solid black;">
+                <li class="a_list" id="a_list1"><a href="home.html">Home</a></li>
+                <li class="a_list" id="a_list2"><a href="category.html">Category</a></li>
+                <li class="a_list" id="a_list3"><a href="Services.html">Services</a></li>
+                <li class="a_list" id="a_list4"><a href="about_us.html">About Us</a></li>
+                <li class="a_list" id="a_list5"><a href="contact_us.html">Contact US</a></li>
+            </ul>
+        </div>
+        <nav class="navbar" id="navbar">
+            <div class="flexbox_1">
+                <button id="button" onclick="ham()">&#9776</button>
+                <ol class="nav_ol">
+                    <li class="left" id="list-1"><a href="home.html"><img src="image/main-logo-2.jpg" height="65px"></a>
+                    </li>
+                    <li class="left" id="list-2"><a href="home.html" class="name">Pushtak Ghar</a></li>
+                </ol>
+            </div>
+            <div class="flexbox_2">
+                <ol>
+                    <li class="center" id="list-3"><a href="home.html">Home</a></li>
+                    <li class="center" id="list-4"><a href="category.html">Category</a></li>
+                    <li class="center" id="list-5"><a href="Services.html">Services</a></li>
+                    <li class="center" id="list-6"><a href="about_us.html">About Us</a></li>
+                    <li class="center" id="list-7"><a href="contact_us.html">Contact US</a></li>
+                </ol>
+            </div>
+            <div class="flexbox_3">
+                <input class="btn" id="search" type="text" name="search" placeholder="  Click Here To Search">
+                <button class="btn" id="glass">&#128269</button>
+                <button class="btn" id="log">login</button>
+                <button class="btn" id="si">sign up</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="service" id="service-1">
+        <ol class="ol1">
+            <li class="one" id="img1"><img src="image/photu-12.jpg" alt="just read" width="100%" height="540px"></li>
+            <li class="one" id="ufi">User Frindly Interface</li>
+            <li class="one" id="ufi2">Our website has a user-friendly interface that makes it easy to find the books
+                you're looking for. The search function is clear and concise, and you can filter your results by genre,
+                author, or title. We also have a favorites list and a reading list so you can keep track of the books
+                you want to read.</li>
+        </ol>
+    </div>
+    <div class="service" id="service-2">
+        <ol class="ol2">
+            <li class="two" id="img2"><img src="image/photu-13.jpg" alt="dont think about anything" width="100%"
+                    height="540px"></li>
+            <li class="two" id="ur1">Unlimited Reading</li>
+            <li class="two" id="ur2">With our unlimited reading plan, you can download as many books as you want,
+                without any restrictions. You can keep the books for as long as you want, and you can download them to
+                any device. We also offer early access to new books </li>
+        </ol>
+    </div>
+    <div class="service" id="service-3">
+        <ol class="ol3">
+            <li class="three" id="img3"><img src="image/photu-9.jpg" alt="" width="100%" height="540px"></li>
+            <li class="three" id="lnv1">large number of varity</li>
+            <li class="three" id="lnv2"> We offer a wide variety of books to choose from, including fiction, nonfiction,
+                classics,bestsellers and many more. We have over 100,000 books in our library, and we add new books
+                frequntly. We also have special collections of books, such as bestsellers and classics.</li>
+        </ol>
+    </div>
+
+    <script>
+        let ham = () => {
+            let list = document.getElementById('list');
+            if (list.style.display != `none`) {
+                list.style.display = `none`;
+            }
+            else {
+                list.style.display = `block`;
+            }
+        }
+    </script>
+</body>
+
+
+</html>

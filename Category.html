@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushtak Ghar</title>
+    <!-- title ka andar photo ka lia   -->
+    <link rel="icon" type="image/gif" href="image/main-logo-2.jpg">
+    <link rel="stylesheet" href="css/category.css">
+
+    <style>
+        .photu {
+
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .cat {
+            text-align: center;
+            margin: 0.2em;
+            font-size: 4em;
+        }
+
+        .cat-ol {
+
+            margin: 1.4em;
+            list-style: none;
+        }
+
+        .cat-list2 {
+            text-align: center;
+        }
+
+        .cat-list2 a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .cat-list {
+            border: 0.2em solid white;
+            padding: 0px;
+            display: block;
+            line-height: 0px;
+        }
+
+        #photu,
+        #photu2,
+        #photu3 {
+            background-color: black;
+            margin-bottom: 3em;
+        }
+
+        body {
+            background-color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container" id="main">
+        <div id="ham" class="ham">
+            <ul class="ham_list" id="list" style="border: 1em solid black;">
+                <li class="a_list" id="a_list1"><a href="home.html">Home</a></li>
+                <li class="a_list" id="a_list2"><a href="category.html">Category</a></li>
+                <li class="a_list" id="a_list3"><a href="Services.html">Services</a></li>
+                <li class="a_list" id="a_list4"><a href="about_us.html">About Us</a></li>
+                <li class="a_list" id="a_list5"><a href="contact_us.html">Contact US</a></li>
+            </ul>
+        </div>
+        <nav class="navbar" id="navbar">
+            <div class="flexbox_1">
+                <button id="button" onclick="ham()">&#9776</button>
+                <ol class="nav_ol">
+                    <li class="left" id="list-1"><a href="home.html"><img src="image/main-logo-2.jpg" height="65px"></a>
+                    </li>
+                    <li class="left" id="list-2"><a href="home.html" class="name">Pushtak Ghar</a></li>
+                </ol>
+            </div>
+            <div class="flexbox_2">
+                <ol>
+                    <li class="center" id="list-3"><a href="home.html">Home</a></li>
+                    <li class="center" id="list-4"><a href="category.html">Category</a></li>
+                    <li class="center" id="list-5"><a href="Services.html">Services</a></li>
+                    <li class="center" id="list-6"><a href="about_us.html">About Us</a></li>
+                    <li class="center" id="list-7"><a href="contact_us.html">Contact US</a></li>
+                </ol>
+            </div>
+            <div class="flexbox_3">
+                <input class="btn" id="search" type="text" name="search" placeholder="  Click Here To Search">
+                <button class="btn" id="glass">&#128269</button>
+                <button class="btn" id="log">login</button>
+                <button class="btn" id="si">sign up</button>
+
+            </div>
+        </nav>
+    </header>
+    <article class="two">
+        <h1 class="cat">
+            CATEGORY
+        </h1>
+        <div class="photu" id="photu">
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-1"><a href="manga.html" style="content: none;"><img src="image/manga-book.jpg
+                    " height="200em"  width="250em" alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="manga.html">Manga</a></li>
+
+            </ol>
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-2"><a href="#Adventure"><img src="image/adventure-book.jpg" height="200em"
+                    width="250em"  alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="#Adventure">Adventure</a></li>
+            </ol>
+
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-6"><a href="#Science fiction"><img src="image/sifi.webp"
+                    height="200em"  width="250em" alt="manga"></a></li>
+        <li class="cat-list2" id="cat-1"><a href="#Science fiction">Science fiction</a></li>
+            </ol>
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-4"><a href="#Mystery"><img src="image/mystery.webp" height="200em"
+                    width="250em"  alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="#Mystery">Mystery</a></li>
+            </ol>
+        </div>
+        <div class="photu" id="photu2">
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-5"><a href="#Fantasy" style="content: none;"><img
+                            src="image/fantesy.jpg" height="200em"  width="250em" alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="#Fantasy">Fantasy</a></li>
+
+            </ol>
+            <ol class="cat-ol">
+                
+                <li class="cat-list" id="cat-3"><a href="#Romance"><img src="image/romance-book.jpg" height="200em"
+                    width="250em"    alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="#Romance">Romance</a></li>
+            </ol>
+
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-7"><a href="#Non-fiction"><img src="image/non-sifi.jpg" height="200em" width="250em"
+                            alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="#Non-fiction">Non-fiction</a></li>
+            </ol>
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-8"><a href="#Poetry"><img src="image/poetry.webp" height="200em"  width="250em"
+                            alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="#Poetry">Poetry</a></li>
+            </ol>
+        </div>
+        <div class="photu" id="photu3">
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-9"><a href="#novels" style="content: none;"><img src="image/novels.webp"
+                    width="250em"    height="200em" alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="Novels">Novels</a></li>
+
+            </ol>
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-10"><a href="#NCERT"><img src="image/ncert.jpg" height="200em"  width="250em"
+                            alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="#NCERT">NCERT</a></li>
+            </ol>
+
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-11"><a href="#JEE"><img src="image/JEE.jpg" height="200em"
+                    width="250em"   alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="#JEE">JEE</a></li>
+            </ol>
+            <ol class="cat-ol">
+                <li class="cat-list" id="cat-12"><a href="#NEET"><img src="image/NEET.jpg" height="200em"
+                    width="250em"    alt="manga"></a></li>
+                <li class="cat-list2" id="cat-1"><a href="#NEET">NEET</a></li>
+            </ol>
+        </div>
+    </article>
+    <script>
+        let ham = () => {
+            let list = document.getElementById('list');
+            if (list.style.display != `none`) {
+                list.style.display = `none`;
+            }
+            else {
+                list.style.display = `block`;
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushtak Ghar</title>
+    <!-- title ka andar photo ka lia   -->
+    <link rel="icon" type="image/gif" href="image/main-logo-2.jpg" >
+    <link rel="stylesheet" href="css/about_us.css">
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <header class="container" id="main">
+        <div id="ham" class="ham">
+            <ul class="ham_list" id="list" style="border: 1em solid black;">
+                <li class="a_list" id="a_list1"><a href="home.html">Home</a></li>
+                <li class="a_list" id="a_list2"><a href="category.html">Category</a></li>
+                <li class="a_list" id="a_list3"><a href="Services.html">Services</a></li>
+                <li class="a_list" id="a_list4"><a href="about_us.html">About Us</a></li>
+                <li class="a_list" id="a_list5"><a href="contact_us.html">Contact US</a></li>
+            </ul>
+        </div>
+        <nav class="navbar" id="navbar">
+            <div class="flexbox_1">
+                <button id="button" onclick="ham()">&#9776</button>
+                <ol class="nav_ol">
+                    <li class="left" id="list-1"><a href="home.html"><img src="image/main-logo-2.jpg" height="65px"></a> </li>
+                    <li class="left" id="list-2"><a href="home.html" class="name">Pushtak Ghar</a></li>
+                </ol>
+            </div>
+            <div class="flexbox_2">
+                <ol>
+                    <li class="center" id="list-3"><a href="home.html">Home</a></li>
+                    <li class="center" id="list-4"><a href="category.html">Category</a></li>
+                    <li class="center" id="list-5"><a href="Services.html">Services</a></li>
+                    <li class="center" id="list-6"><a href="about_us.html">About Us</a></li>
+                    <li class="center" id="list-7"><a href="contact_us.html">Contact US</a></li>
+                </ol>
+            </div>
+            <div class="flexbox_3">
+                <input class="btn" id="search" type="text" name="search" placeholder="  Click Here To Search">
+                <button class="btn" id="glass">&#128269</button>
+                <button class="btn" id="log">login</button>
+                <button class="btn" id="si">sign up</button>
+            </div>
+        </nav>
+    </header>
+    <div class="about" id="about">
+        <p class="about-ul" id="para">Welcome to Pushtak Ghar, your premier destination for online book PDFs. we are
+            dedicated to providing you with a wide range of books in PDF format,
+            allowing you to conveniently read and access your favorite titles anytime, anywhere. Our mission is to make
+            reading more accessible and enjoyable for book lovers of all ages and interests. With our extensive
+            collection and user-friendly platform, we strive to create a seamless and immersive reading experience for
+            our valued customers. Explore our website today and embark on a journey through the world of literature with
+            Pushtak Ghar.</p> 
+    </div>
+    <script>
+        let ham = () => {
+            let list = document.getElementById('list');
+            if (list.style.display != `none`) {
+                list.style.display = `none`;
+            }
+            else {
+                list.style.display = `block`;
+            }
+        }
+    </script>
+</body>
+
+</html>

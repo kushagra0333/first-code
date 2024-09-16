@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushtak Ghar</title>
+    <!-- title ka andar photo ka lia   -->
+    <link rel="icon" type="image/gif" href="image/main-logo-2.jpg" >
+    <!-- <link rel="stylesheet" href="css/services.css"> -->
+    <style>
+       * {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.navbar {
+    border: 2px solid black;
+    height: 5em;
+    background-image: url(image/photu-0.jpg);
+}
+
+.flexbox_1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 4em;
+    font-size: 1.2em;
+    top: -.1em;
+    z-index: 1;
+}
+
+#list-2 {
+    margin-top: 0.6em;
+    margin-left: -2em;
+}
+
+.flexbox_1 li {
+    float: left;
+    padding: 1.5em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    
+}
+
+.flexbox_1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding-right: 1em;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.flexbox_2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    top: .5em;
+    left: -3em;
+    font-size: 1.2em;
+    z-index: 0;
+
+}
+
+.flexbox_2 li {
+    float: left;
+    padding: 1em;
+}
+
+.flexbox_2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.flexbox_3 {
+    display: flex;
+    position: absolute;
+    top: 0.7em;
+    right: 0px;
+    padding: 1em;
+    z-index: 1;
+}
+
+#list-2 {
+    padding-top: 20px;
+}
+
+#search {
+    border: 2px solid black;
+    width: 17em;
+}
+
+.btn {
+    margin-left: 1em;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 0.9em;
+}
+#log,#si{
+    background-color: rgb(114, 255, 121);
+    font-size: 1.1em;
+    padding: .2em;
+}
+#glass{
+    margin-left: -33px;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    background-color: white;
+    font-size: 1.2em;
+}
+#log:hover,#si:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+#glass:hover{
+    cursor: pointer;
+}
+    </style>
+</head>
+
+<body>
+    <header class="container" id="main">
+        <nav class="navbar" id="navbar">
+            <div class="flexbox_1">
+                <ol class="nav_ol">
+                    <li class="left" id="list-1"><a href="home.html"><img src="image/main-logo-2.jpg" height="65px"></a> </li>
+                    <li class="left" id="list-2"><a href="home.html" class="name">Pushtak Ghar</a></li>
+                </ol>
+            </div>
+            <div class="flexbox_2">
+                <ol>
+                    <li class="center" id="list-3"><a href="home.html">Home</a></li>
+                    <li class="center" id="list-4"><a href="category.html">Category</a></li>
+                    <li class="center" id="list-5"><a href="Services.html">Services</a></li>
+                    <li class="center" id="list-6"><a href="about_us.html">About Us</a></li>
+                    <li class="center" id="list-7"><a href="contact_us.html">Contact US</a></li>
+                </ol>
+            </div>
+            <div class="flexbox_3">
+                <input class="btn" id="search" type="text" name="search" placeholder="  Click Here To Search">
+                <button class="btn" id="glass">&#128269</button>
+                <button class="btn" id="log">login</button>
+                <button class="btn" id="si">sign up</button>
+            </div>
+        </nav>
+    </header>
+</body>
